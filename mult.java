@@ -1,4 +1,4 @@
-public class mult{
+/*public class mult{
     public static void main(String[] args) {
         
         int m;
@@ -15,4 +15,19 @@ public class mult{
             }
     }
 }
+}*/
+import java.util.Scanner;
+public class mult{
+    public static void main(String[] args){
+
+        Scanner me = new Scanner(System.in);
+    
+        System.out.println("Enter Number: ");
+        int number = me.nextInt();
+
+        for(int m = 1; m <= 13;){
+
+            System.out.println(number + " x " + m + " = "+ (number * m) );
+        }
+    }
 }
